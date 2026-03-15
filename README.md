@@ -41,6 +41,10 @@ Jing Shao<sup>1✉</sup>
 <img src='./assets/teaser.png' alt='Teaser' width='850px'>
 </p>
 
+<p align='center'>
+<img src='./assets/safe_trajectory.png' alt='Trajectory' width='850px'>
+</p>
+
 ## 📊 Performance
 
 - 🚀 **State-of-the-Art Risk Identification:** HomeGuard-8B achieves a **90.98% RIR** and **74.90% RMR** on HomeSafe-Bench, significantly outperforming leading open-source models (Qwen3-VL-235B) and even matching or surpassing proprietary models like Gemini-3-Pro in complex embodied scenarios.
@@ -49,13 +53,13 @@ Jing Shao<sup>1✉</sup>
 - 🛠️ **Practical Utility for Safe Planning:** Integrating HomeGuard into VLM planners yields a **16.11% improvement** on the IS-Bench safe success rate. Beyond semantic risk grounding, the generated bounding boxes serve as **actionable spatial waypoints**, enabling low-level safe trajectory generation.
 
 <p align='center'>
-<img src='./assets/table1_homesafe.png' alt='Table 1' width='850px'>
+<img src='./assets/experiment1.png' alt='Table 1' width='850px'>
 </p>
 
 <p align='center'>
-<img src='./assets/table2_public_benchmarks.png' alt='Table 2' width='850px'>
+<img src='./assets/experiment2.png' alt='Table 2' width='850px'>
 </p>
 
 <p align='center'>
-<img src='./assets/safe_trajectory.png' alt='Table 2' width='850px'>
+<img src='./assets/efficiency.png' alt='Table 3' width='850px'>
 </p>
