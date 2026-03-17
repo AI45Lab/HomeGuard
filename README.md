@@ -22,13 +22,13 @@ Jing Shao<sup>1✉</sup>
 </h4>
 
 <div align="center">
-<a href='https://www.arxiv.org/'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://github.com/AI45Lab/HomeGuard'><img src='https://img.shields.io/badge/Project-Page-green'></a> <a href='https://huggingface.co/datasets/Ursulalala/'><img src='https://img.shields.io/badge/🤗-Dataset-blue'></a>
+<a href='https://arxiv.org/pdf/2603.14367'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://github.com/AI45Lab/HomeGuard'><img src='https://img.shields.io/badge/Project-Page-green'></a> <a href='https://huggingface.co/datasets/Ursulalala/'><img src='https://img.shields.io/badge/🤗-Dataset-blue'></a>
 </a>
 </div>
 
 
 ## 📰 News
-* **`2026.03.16`** 🤗🤗 We release our latest work [HomeGuard](https://arxiv.org/pdf/), the **first specialized embodied safeguard model** for identifying contextual risk in household task.
+* **`2026.03.16`** 🤗🤗 We release our latest work [HomeGuard](https://arxiv.org/pdf/2603.14367), the **first specialized embodied safeguard model** for identifying contextual risk in household task.
 * 🚀 Code release in progress! We are currently organizing the repository and will open-source it soon.
 
 ## 👀 Overview
@@ -39,10 +39,14 @@ Jing Shao<sup>1✉</sup>
 
 <p align='center'>
 <img src='./assets/teaser.png' alt='Teaser' width='850px'>
+  <br>
+  <em><b>Figure 1: Identifying implicit contextual risks via Context-Guided Chain-of-Thought.</b></em>
 </p>
 
 <p align='center'>
-<img src='./assets/safe_trajectory.png' alt='Trajectory' width='850px'>
+<img src='./assets/safe_trajectory.png' alt='Trajectory' width='70%'>
+  <br>
+  <em><b>Figure 2: An application case of HomeGuard facilitating safe trajectory generation. </b></em>
 </p>
 
 ## 📊 Performance
