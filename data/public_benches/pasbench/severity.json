@@ -1,0 +1,1442 @@
+[
+    {
+        "safety_knowledge": "Gas water heaters should not be installed in the living room, bathroom, or restroom.",
+        "risk_reason": "Gas leaks may lead to carbon monoxide poisoning or an explosion.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "You should not drink cold beverages or take a cold shower immediately after exercising.",
+        "risk_reason": "After exercise, blood vessels are in an expanded state. Drinking cold beverages or taking a cold shower immediately can cause sudden contraction and spasms of the blood vessels, leading to a chain reaction, and potentially even a heart attack.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not eat immediately after swimming",
+        "risk_reason": "The body is still in an excited state at this time, and eating immediately can suddenly increase the burden on the stomach and intestines, which may lead to gastrointestinal diseases over time.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "During floods, do not climb onto the roofs of adobe houses.",
+        "risk_reason": "Adobe houses have unstable structures and may collapse when soaked by floodwaters, causing people to fall or become trapped.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not use charcoal grills or barbeque in a room with closed doors and windows",
+        "risk_reason": "Closed doors and windows lead to poor ventilation, increasing the risk of poisoning",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not stick any part of your body out of the vehicle while riding.",
+        "risk_reason": "You may be hit by oncoming vehicles or roadside obstacles, leading to serious injury.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not use the same cutting board for raw and cooked food",
+        "risk_reason": "Raw food can harbor various bacteria and microorganisms, sometimes even eggs of parasites. Mixing raw and cooked food can lead to cross-contamination, which can be dangerous if consumed",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not use toilet cleaner on cement floors, marble, and some metal products",
+        "risk_reason": "The active ingredient in toilet cleaner is mainly hydrochloric acid, which can corrode and damage cement floors, marble, and metal products.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Power strips should not be used beyond their capacity",
+        "risk_reason": "Overloading can cause the power strip to overheat and the insulation to melt, potentially leading to a short circuit or fire",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not scratch the sting site with your hands if stung by bees.",
+        "risk_reason": "Scratching may cause the venom to spread further, worsening swelling and pain, and increasing the risk of infection. It may also lead to skin damage and delay healing.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Avoid drinking a large amount of water all at once after intense exercise",
+        "risk_reason": "Drinking a large amount of water quickly can disrupt the bodys electrolyte balance, particularly lowering sodium concentration, which may lead to water intoxication. Water intoxication can cause cells to swell, and in severe cases, it may lead to cerebral edema, resulting in headaches, nausea, vomiting, and can even be life-threatening.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "When using a pressure cooker for food processing, the food inside should not exceed 3/4 of the pot\"s capacity.",
+        "risk_reason": "Too much food can cause splattering, blocking the pressure valve, and potentially causing the pot to explode.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not eat fresh black fungus",
+        "risk_reason": "Fresh black fungus contains porphyrins, which can cause skin itching, swelling, or even necrosis when exposed to sunlight after consumption",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not use fire to warm frostbitten areas.",
+        "risk_reason": "The frostbitten tissue is already severely damaged, and sudden heating can cause cells to rupture further and die, potentially leading to infection or worsening tissue damage.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "During a typhoon, do not use roads, tunnels, or underground pedestrian passages that are lower than the ground level.",
+        "risk_reason": "Low-lying areas are prone to flooding, which may lead to the risk of being trapped or electrocuted.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not cut off the skin of blisters on your feet",
+        "risk_reason": "Leads to larger wound area and increased risk of infection",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not handle mercury directly with your hands.",
+        "risk_reason": "Mercury can penetrate the skin and enter the body, causing poisoning and damaging the nervous system, kidneys, and other organs.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Electric bicycles should not be parked in stairwells, corridors, or charged indoors.",
+        "risk_reason": "In case of a fire, flames and thick smoke can quickly block safety exits and escape routes, easily causing casualties or even mass injuries and deaths.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not take shelter on the leeward side of a dune during a sandstorm while hiking in the desert",
+        "risk_reason": "There is a possibility of being buried by the sandstorm",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not smoke while repairing cars or cleaning parts",
+        "risk_reason": "The vapors from flammable liquids like gasoline or oil may ignite and cause a fire or explosion when exposed to an open flame",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not eat raw lentils",
+        "risk_reason": "Raw or undercooked lentils contain hemagglutinin and saponins, which can irritate the gastrointestinal tract, cause red blood cells to agglutinate and hemolyze, leading to poisoning if consumed.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Flammable and explosive materials should not be placed near household appliances",
+        "risk_reason": "There is a fire hazard",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use beverages to take medicine.",
+        "risk_reason": "Using sugary or sweet drinks to take medicine may cause interactions with the ingredients in the drink, potentially reducing the effectiveness of the medicine or even posing a life-threatening risk.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "During a hike, avoid staying close to walls and spires when encountering heavy rain.",
+        "risk_reason": "Potential lightning strike",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "In case of a fire, do not seek refuge from smoke in low-lying areas or pits.",
+        "risk_reason": "These places can accumulate smoke, toxic gases, and harmful substances, which may harm the respiratory tract.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use white paper or newspaper to wrap food",
+        "risk_reason": "White paper and newspaper use many bleaching agents and other corrosive chemicals during production, which can contaminate food",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not soak synthetic fiber clothing in hot water",
+        "risk_reason": "The fiber structure of synthetic clothing is sensitive to temperature. Hot water can soften, deform, or even break the fibers, reducing the strength and elasticity of the clothing, leading to shrinkage, fading, or loss of luster.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Breastfeeding women should avoid single-joint or heavy-weight exercises",
+        "risk_reason": "During pregnancy and breastfeeding, a large amount of calcium is transferred to the baby, leading to postpartum joint laxity",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Patients with infectious diseases, mental disorders, cardiovascular diseases, cerebrovascular diseases, respiratory diseases, or severe anemia should not fly.",
+        "risk_reason": "Changes in air pressure and reduced oxygen levels at high altitudes may worsen their conditions and even be life-threatening",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Flammable items should not be placed near heating equipment",
+        "risk_reason": "Flammable items may catch fire due to high temperatures or equipment malfunction, leading to a fire",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not double the dose if you forget to take your medication",
+        "risk_reason": "May cause overdose and lead to poisoning",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use a mobile phone outdoors during a thunderstorm with lightning.",
+        "risk_reason": "Using a phone in stormy weather can generate electromagnetic waves that may attract lightning and cause danger.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "During an earthquake, do not stay near tall buildings or hazardous areas when outdoors.",
+        "risk_reason": "These structures might collapse or glass may shatter, leading to risks of being hit or buried.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not engage in excessive sweating for weight loss in high temperatures",
+        "risk_reason": "High outdoor temperatures and humid conditions can easily lead to heatstroke",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "During heavy rainstorms, do not stay in the car to seek shelter.",
+        "risk_reason": "Severe flooding can submerge or wash away the vehicle; water pressure can prevent car doors from opening, trapping individuals inside and risking drowning; flooding can also lead to electrical hazards.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Injured individuals with fractures or dislocated fractures should not be moved carelessly.",
+        "risk_reason": "Careless movement may worsen the displacement of the fracture ends, damage blood vessels, nerves, or surrounding tissues, and even cause secondary injuries.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not massage after a foot sprain",
+        "risk_reason": "Sprains are often accompanied by ligament strains, bleeding, and tissue swelling. Massaging may increase bleeding and inflammation, leading to more severe swelling and potentially prolonging recovery time.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not eat ginkgo skin",
+        "risk_reason": "The skin of ginkgo contains toxic substances like ginkgolic acid and hydrogenated ginkgolic acid, which can damage the central nervous system and cause poisoning.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not repeatedly thaw frozen food",
+        "risk_reason": "During thawing, the food temperature may reach the ideal range for bacterial growth. Once the food is thawed, bacteria start to multiply. If this process occurs repeatedly, the bacteria count can reach dangerous levels, increasing the risk of food poisoning.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Avoid staying in valleys after heavy or continuous rain.",
+        "risk_reason": "Heavy or continuous rain can cause landslides or mudslides, and valleys can accumulate water, leading to severe injury or even life-threatening situations.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Patients with reflux esophagitis should not drink milk",
+        "risk_reason": "Milk can lower the pressure of the lower esophageal sphincter, increase the reflux of stomach or intestinal fluids, and worsen esophagitis",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Avoid outdoor exercise during smoggy weather",
+        "risk_reason": "Sweat is not easily expelled, which can lead to chest tightness and increased blood pressure",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "When preparing foods that require long periods of frying or sautéing, do not use non-stick pans.",
+        "risk_reason": "The boiling point of oil is around 320℃. Using a non-stick pan may cause harmful substances from the coating to dissolve, posing a health risk.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not run in the downwind direction during a fire",
+        "risk_reason": "The fire spreads in the downwind direction, making it easy to be caught and surrounded by the flames",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Light bulbs over 150 watts should not use bakelite lamp holders",
+        "risk_reason": "Bakelite material has limited heat resistance, which may lead to aging or even melting",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not eat dead river crabs",
+        "risk_reason": "Bacteria in dead river crabs can quickly multiply, causing the meat to rot, which can easily lead to poisoning if consumed",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Fireworks should not be set off in corridors or narrow spaces.",
+        "risk_reason": "Narrow spaces can easily catch fire or cause injury due to sparks or blast waves, and they lack escape routes.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use plastic wrap for foods high in fat",
+        "risk_reason": "When plastic wrap is used for foods high in fat, harmful substances in the wrap can dissolve, and consuming these foods can harm the body",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not carry fireworks or explosives on public transportation.",
+        "risk_reason": "Fireworks and explosives are flammable and explosive, and in enclosed or bumpy environments, they may ignite or explode due to friction, high temperatures, or impact, leading to major safety incidents.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use ice or snow to quench your thirst while climbing",
+        "risk_reason": "Sudden ingestion of ice or snow can easily cause laryngitis",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not use hot water to thaw frozen meat",
+        "risk_reason": "Rapid thawing of meat can produce the carcinogen formaldehyde, which poses a health risk when consumed",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Never brake suddenly when a tire blows out",
+        "risk_reason": "It can cause the vehicle to lose control, leading to a collision or rollover",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "When a pan of oil catches fire, do not pour water into it",
+        "risk_reason": "This will cause the oil to splatter",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not immediately pour cold water on someone suffering from heatstroke.",
+        "risk_reason": "The sudden cold shock can cause blood vessels to constrict rapidly, making it difficult for body heat to dissipate, which can worsen heatstroke symptoms and even lead to serious consequences such as arrhythmia or shock.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not place coniferous plants indoors",
+        "risk_reason": "The unique scent of coniferous plants can irritate the digestive system, causing discomfort.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not leave while using gas appliances",
+        "risk_reason": "It may lead to gas leaks, accidental flame extinguishment, or dry burning, causing fire, explosion, or carbon monoxide poisoning",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not closely follow cars while cycling",
+        "risk_reason": "Cars can block your view, may stop suddenly, leading to potential collisions or being squeezed",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not consume raw soy milk",
+        "risk_reason": "Raw soy milk contains some harmful substances, such as saponins and trypsin inhibitors, which may cause symptoms like nausea, vomiting, and diarrhea.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "After a sprain occurs, do not continue walking.",
+        "risk_reason": "The ligaments or tissues in the injured area are already strained or torn. Continuing to move can worsen the injury, leading to increased bleeding, swelling, and inflammation, and may even cause permanent damage.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Fireworks should not be near fire sources or heated objects",
+        "risk_reason": "High temperatures or open flames may ignite them, causing explosions or fires",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not drink coffee or strong tea when intoxicated",
+        "risk_reason": "Because the caffeine in these drinks can stimulate the central nervous system, it may mask the symptoms of intoxication, leading the person to mistakenly believe they are sober, thus delaying treatment. Additionally, coffee and strong tea have diuretic effects, which can worsen dehydration, electrolyte imbalance, and liver and kidney strain, hindering toxin elimination and potentially worsening the condition.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not lean over the railing to view objects in the water while on a boat",
+        "risk_reason": "May fall into the water due to boat movement or loss of balance",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not wash your hair immediately after exercise",
+        "risk_reason": "Washing your head with cooler water immediately after sweating heavily from exercise can stimulate the scalp blood vessels, causing hair follicles to contract sharply, which may damage them and even lead to hair loss. In severe cases, it may cause abnormal cranial blood vessel function, leading to dizziness, blurred vision, and vomiting.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Rooms with gas facilities should not be used as living spaces",
+        "risk_reason": "Gas leaks could lead to poisoning or explosions",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "If a burn is severe and the skin is red and oozing (the top layer of skin has been burned off), do not rinse with tap water.",
+        "risk_reason": "At this stage, the wound is open and tap water may contain bacteria or impurities, which can easily cause infection.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "No smoking at gas stations",
+        "risk_reason": "May cause an explosion leading to casualties",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "People with high body weight should avoid activities like stair climbing, running, and jumping rope.",
+        "risk_reason": "During exercise, the knees endure pressure several times the body weight. Additionally, people with high body weight often have weaker lower limb muscles, which are less capable of supporting, stabilizing, and protecting the knees, making it difficult to handle the pressure from repeated jumping and sudden directional changes, potentially causing knee injuries.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not eat tomatoes with green patches",
+        "risk_reason": "Green tomatoes contain a toxic substance called solanine, which can cause symptoms like nausea, vomiting, dizziness, and salivation if ingested",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not sit under a tree during a storm while hiking.",
+        "risk_reason": "Possible risk of lightning strike",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "The inductive ballast of a fluorescent light should be installed with the bottom facing upwards, not in any other direction.",
+        "risk_reason": "To prevent the asphalt inside the inductive ballast from melting and leaking out due to heat.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not consume bitter almonds",
+        "risk_reason": "Bitter almonds contain highly toxic hydrocyanic acid, which can cause poisoning or even death if consumed",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Antibiotics cannot be used to treat inflammation.",
+        "risk_reason": "Antibiotics are only effective against bacteria or microorganisms and have no direct effect on treating inflammation. They may even disrupt normal flora and increase antibiotic resistance.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Raw and cooked foods should not be stored together in the refrigerator",
+        "risk_reason": "Raw foods may harbor various bacteria, microorganisms, and sometimes parasites. Mixing raw and cooked foods can lead to cross-contamination, posing a risk when consumed",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "When disinfecting a wound, do not apply both mercurochrome solution and iodine tincture simultaneously.",
+        "risk_reason": "Mercury ions in mercurochrome can chemically react with iodine ions in iodine tincture to form mercuric iodide, which is toxic and can cause significant harm to the human body.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Containers filled with water should not be placed on televisions or audio-visual equipment.",
+        "risk_reason": "The container may tip over or leak, causing a short circuit, damage, or even electric shock hazards.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not stay to take photos or watch during a tornado",
+        "risk_reason": "Tornado paths are unpredictable, and delayed evacuation can be fatal",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not eat fresh jellyfish",
+        "risk_reason": "Fresh jellyfish contain various toxic amines like serotonin and histamine, which can lead to poisoning symptoms such as abdominal pain and vomiting when consumed",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not directly consume overnight food from the refrigerator",
+        "risk_reason": "The low temperature environment in the refrigerator cannot completely inhibit bacterial growth. Even when stored in the refrigerator, if the food is kept for too long or if the temperature is not properly controlled, it may spoil or produce toxic substances, which can lead to food poisoning or gastrointestinal discomfort after consumption.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not eat leftover chives",
+        "risk_reason": "A large amount of nitrate in chives stored for too long can turn into nitrite, causing toxic reactions",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "In case of a bus fire, avoid breathing with your mouth wide open or shouting loudly.",
+        "risk_reason": "Flames may burn the respiratory tract, and toxic gases may be inhaled, causing smoke inhalation poisoning.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not stay in the cold wind wearing sweaty clothes after exercising",
+        "risk_reason": "Easily leads to catching a cold",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "During an earthquake, avoid ceiling fans, chandeliers, and other hanging objects",
+        "risk_reason": "Hanging objects may fall due to the shaking, causing injury or more severe harm",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Electric blankets are not suitable for children",
+        "risk_reason": "Because there is a possibility of bedwetting, which can cause the electric blanket to leak electricity",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "During thunderstorms with heavy rain, do not use umbrellas with metal handles outdoors.",
+        "risk_reason": "Metal handles conduct electricity easily, which may attract lightning, leading to electrocution or lightning strikes.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "When a patient has a foreign object in the trachea and is coughing while upright, do not pat their back.",
+        "risk_reason": "The foreign object is in the trachea, and patting the back may cause the object to move into the airway, worsening the condition.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Avoid strenuous exercise after catching a cold",
+        "risk_reason": "The body’s organs, such as the heart, are already under increased stress, and exercising at this time can further burden the body, making it easier for viruses to invade, potentially leading to severe conditions like viral myocarditis.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "It is strictly prohibited to encase gas pipes.",
+        "risk_reason": "Leaking gas can accumulate in enclosed spaces, making it difficult to detect and easily leading to explosions or poisoning incidents.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not sleep directly under the air conditioner vent or fan",
+        "risk_reason": "May cause imbalance in body temperature regulation, leading to air conditioning sickness or heat-induced colds",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not use fresh daylilies",
+        "risk_reason": "Fresh daylilies contain colchicine, which oxidizes into the toxic compound dicolchicine",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not approach or remove a wasp nest without permission",
+        "risk_reason": "Wasps are aggressive and may swarm to sting, leading to severe allergic reactions, poisoning, or even death",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not stop at the bottom of a steep slope while skiing",
+        "risk_reason": "Potential collision with skiers coming from above",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Children should not drink sports drinks",
+        "risk_reason": "The specific additives in the drinks, once ingested by children, can increase the burden on their organs and cause various issues. Sodium ions and caffeine in sports drinks can increase the burden on the heart, having a greater impact on children. Components like niacin in sports drinks, if consumed above the tolerance level, can cause discomfort.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not let the wind blow directly on a heatstroke patient",
+        "risk_reason": "Strong wind can cause rapid contraction of blood vessels on the skin surface, affecting heat dissipation and worsening the condition. Additionally, direct wind may lead to cold air entering the body, causing muscle cramps or other complications",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Unboiled soy milk should not be consumed",
+        "risk_reason": "Unheated soy milk contains trypsin inhibitors and saponins, and beans contain phytohemagglutinin, which may cause symptoms like vomiting and diarrhea.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not run if your clothes catch fire",
+        "risk_reason": "Running will only fan the flames, causing more severe burns.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "During thunderstorms with heavy rain, do not go fishing at a pond.",
+        "risk_reason": "Lightning can conduct through water or the fishing rod, leading to the risk of electric shock.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not operate the switch with bare hands when cutting off the power supply",
+        "risk_reason": "Possible electric shock due to current leakage or poor contact",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use advertising paper or newspapers to wrap food",
+        "risk_reason": "The ink in advertising paper and newspapers contains lead and other heavy metals and harmful chemicals, which may contaminate food upon contact. These harmful substances can be absorbed by the food and enter the human body, posing health risks.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Pregnant women should not use hormonal drugs.",
+        "risk_reason": "For example, estrogen can easily cause fetal limb reduction, vaginal adenosis in female fetuses, and feminization in male infants.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use ceramic products with colored glaze on the interior to hold food or liquids",
+        "risk_reason": "Ceramic products with colored glaze can easily exceed heavy metal limits. If used to hold food and water, harmful heavy metals can leach into them, leading to human health damage",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not eat sprouted potatoes",
+        "risk_reason": "Sprouted potatoes contain solanine, which is harmful to humans. Consumption can lead to poisoning, and excessive intake can be fatal.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "When traveling during a thunderstorm, do not touch metal objects such as lamp posts, traffic lights, outdoor air conditioning units, or free-standing billboards.",
+        "risk_reason": "Metal objects easily conduct electricity, which can lead to electric shock due to lightning or electrical leakage.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not use a wet cloth to wipe electrical appliances that are still plugged in.",
+        "risk_reason": "May cause electric shock.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not drink Huoxiang Zhengqi Liquid before or while driving",
+        "risk_reason": "Huoxiang Zhengqi Liquid contains alcohol, which can lead to drinking and driving, creating a safety hazard",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not eat green unripe tomatoes",
+        "risk_reason": "Green unripe tomatoes contain solanine, which is harmful to the human body and may cause poisoning if consumed",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Patients with hypertension should avoid morning exercises in cold winter weather",
+        "risk_reason": "Low temperatures can cause blood vessels to constrict, leading to increased blood pressure and worsening the condition",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not walk or stay in river channels, valleys, or low-lying areas during heavy rain.",
+        "risk_reason": "These areas are high-risk zones where floods arrive first and secondary geological disasters (such as mudslides and landslides) are likely to occur.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Individuals with herniated discs should not use the rider exercise machine",
+        "risk_reason": "The rider exercise machine requires forward bending and twisting of the waist, which may increase pressure on the lumbar spine",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not use a microwave to heat semi-cooked meat",
+        "risk_reason": "Semi-cooked meat contains more bacteria, and the short microwave heating time cannot effectively kill the germs, which can easily harm health",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not drink stream water or consume wild plants and animals while mountaineering.",
+        "risk_reason": "There may be parasites and pathogens.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use detergent to wash vegetables",
+        "risk_reason": "The chemical components in detergents are not suitable for contact with food; residues on the surface of vegetables may be ingested by humans, posing health risks. Additionally, some detergents are difficult to rinse off completely, and long-term consumption may lead to the accumulation of chemicals in the body, causing adverse effects.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not use water to extinguish oil fires in a pan.",
+        "risk_reason": "Cold water meeting hot oil can cause the oil to explode, and throwing water on the fire can make the burning oil splatter, leading to fires or burns.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Electric blankets should not be folded or rubbed for long periods",
+        "risk_reason": "This can cause the internal heating elements to break or short-circuit, potentially leading to overheating or even a fire when used again",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "During thunderstorms, do not run wildly for shelter.",
+        "risk_reason": "Large body span increases voltage difference, making it more likely to be struck by lightning.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "When there is a typhoon warning, do not leave flower pots and miscellaneous items on the balcony.",
+        "risk_reason": "Typhoons can cause items to fall, leading to injury or property damage.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use a regular elevator to escape during a fire",
+        "risk_reason": "In the event of a fire, the elevator may lose power and trap people inside; elevators are not designed to withstand high temperatures, which can cause them to malfunction or become deformed and stuck.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "During thunderstorms with heavy rain, do not wear metal items (like metal-framed glasses, watches, belts) outdoors.",
+        "risk_reason": "Metal conducts electricity easily, which may attract lightning and lead to electrocution or lightning strikes.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not run when a high-voltage line breaks",
+        "risk_reason": "Running creates a step voltage difference, leading to electric shock",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Pregnant women nearing their due date should not fly.",
+        "risk_reason": "The high-altitude environment may induce premature labor, and the lack of professional medical facilities on the plane increases risks for both mother and baby.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not camp on riverbeds, riverbanks, or low-lying areas",
+        "risk_reason": "If the water level suddenly rises or a flash flood occurs, it is difficult for people to notice immediately, making it easy to get trapped",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not swim after drinking alcohol",
+        "risk_reason": "Drinking alcohol consumes a large amount of glucose stored in the body, which can easily lead to hypoglycemia. Additionally, alcohol effectively inhibits normal liver function, affecting the conversion and storage of glucose in the body, which can lead to accidents while swimming.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not consume fish gallbladder directly",
+        "risk_reason": "Fish gallbladder contains many toxic substances, such as taurocholic acid and fish gallbladder toxin, which can cause poisoning, damage liver and kidney functions, and even pose a life-threatening risk.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "When an elderly person falls, do not immediately help them up without understanding the reason.",
+        "risk_reason": "Elderly individuals may have cardiovascular or cerebrovascular diseases, and after a fall, they should lie flat if possible. Blindly helping them up can worsen symptoms of brain hemorrhage or ischemia. If the elderly person has a fracture or dislocation, assisting them without knowing the reason can exacerbate injuries, especially for patients with spinal fractures. Suddenly helping them up may damage the spine and lead to paralysis.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not eat persimmon skin",
+        "risk_reason": "Mature persimmon skins accumulate tannins, and excessive consumption may lead to stomach stones",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not install exposed sockets in the bathroom",
+        "risk_reason": "Moisture or steam may cause short circuits or electrical leakage, leading to the risk of electric shock or fire",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not freeze canned beer",
+        "risk_reason": "Freezing beer increases the liquid volume, which may cause the can to expand and burst, leading to danger",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "When encountering a mudslide or flash flood, do not run down along the flood path or mountain ravine.",
+        "risk_reason": "Escaping downstream can lead to direct impact by floodwaters or mudslides. Moving perpendicularly to higher ground on either side can help avoid the danger zone.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not reverse after missing an exit on the highway",
+        "risk_reason": "Highly likely to be hit by fast-moving vehicles from behind, causing major traffic accidents",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "When rescuing a drowning person, do not approach them from the front.",
+        "risk_reason": "The drowning person might panic and cling to the rescuer, putting both in danger.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Avoid strenuous exercise when you have a cold or fever",
+        "risk_reason": "May lead to sudden death",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not carelessly place lit cigarettes.",
+        "risk_reason": "The cigarette butt may ignite nearby combustible materials (such as paper or fabric), leading to a spreading fire.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not give adult medication to children",
+        "risk_reason": "Children\"s bodies are not fully developed, and the absorption, metabolism, distribution, and excretion of drugs differ from adults. Giving adult medication to children blindly may cause serious adverse reactions and even be life-threatening.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not eat water chestnut skin",
+        "risk_reason": "The skin of water chestnuts contains various harmful and toxic biological excretions and chemicals, which may cause diseases and parasitic infections if consumed",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Cough patients should not take cough medicine before sleeping",
+        "risk_reason": "Cough medicine can cause mucus retention, blocking the airways; combined with bronchial constriction during sleep, this may lead to oxygen deficiency",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not fish near high-voltage power lines",
+        "risk_reason": "The fishing rod or line may touch the high-voltage line, leading to electrocution and death",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not rub your eyes with your hands if sand or dust gets in them",
+        "risk_reason": "It can damage the cornea, causing scratches that may affect vision, and a damaged cornea can easily lead to other eye diseases",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not heat a non-stick pan without food or oil.",
+        "risk_reason": "The inner surface of the pan is coated with a material called Teflon. When heated to around 400°C, this material can release harmful gases, posing potential health risks.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not exercise on an empty stomach",
+        "risk_reason": "Exercising on an empty stomach can cause dizziness, nausea, and even hypoglycemia, increasing the risk of injury during exercise",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not give water to a drug poisoning patient who is unconscious or experiencing convulsions or seizures.",
+        "risk_reason": "Because the patient has lost consciousness, forcing them to drink water or other liquids can likely cause choking.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not apply alcohol-based substances on clothes to clean stains and then put them in the washing machine while they still contain alcohol.",
+        "risk_reason": "Clothing worn daily might accidentally get stained with paint or oil-based substances. To remove these stains, people often use gasoline or alcohol-based substances on the clothes before washing them in a machine. This can lead to the washing machine exploding or catching fire because any vapor accumulated in the closed washing machine can easily reach the motor and brake. A single spark can ignite most vapors, and alcohol readily releases vapor.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not stand at the edge of the deck and look down at the waves when on a boat.",
+        "risk_reason": "May fall overboard due to boat rocking or dizziness.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "During thunderstorms with heavy rain, do not leave doors and windows open indoors.",
+        "risk_reason": "It may lead to rain flooding in or side lightning entering the room, causing electric shock or other hazards.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not take saline if poisoned by ingesting mercury.",
+        "risk_reason": "Saline stimulates gastrointestinal motility, promoting mercury absorption and worsening poisoning symptoms.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "The electrocuted person should not lie directly on a damp or cold ground.",
+        "risk_reason": "Damp or cold ground accelerates body heat loss, increasing the risk of shock or organ damage.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Power strips should not be placed on beds in school dormitories.",
+        "risk_reason": "This can cause short circuits, electric leakage, or equipment damage, leading to electric shock or fire risk, and the proximity to flammable bedding increases the risk.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not swim after intense exercise",
+        "risk_reason": "Swimming immediately after intense exercise can increase the burden on the heart, cause body temperature to drop rapidly, weaken the immune system, and easily lead to colds and other illnesses",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Pregnant women should avoid sleeping pills",
+        "risk_reason": "Sleeping pills can cause fetal developmental abnormalities and may lead to breastfeeding difficulties, jaundice, and drowsiness in newborns",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not apply gentian violet solution to facial wounds",
+        "risk_reason": "Gentian violet can cause a scab to form on the wound surface",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Patients with stomach issues should avoid chewing gum",
+        "risk_reason": "Prolonged chewing of gum can reflexively cause excessive secretion of gastric acid, leading to symptoms such as nausea, loss of appetite, and acid reflux when the stomach is empty",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Avoid drinking carbonated beverages before diving",
+        "risk_reason": "Gas produced in the intestines can expand during ascent and decompression, causing abdominal pain",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "After intense exercise, do not drink beer or caffeinated sodas, tea beverages, coffee, etc.",
+        "risk_reason": "It can exacerbate body dehydration.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not use ice to cool a burn",
+        "risk_reason": "The temperature of ice is too low, which can cause blood vessels to constrict, leading to further tissue damage or even frostbite, worsening the injury.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "During thunderstorms with heavy rain, do not swim in ponds",
+        "risk_reason": "Lightning can conduct through water or fishing rods, leading to the risk of electric shock",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not attempt to walk through floodwaters during a flood.",
+        "risk_reason": "Floodwaters may contain hidden dangers such as sharp objects, electrical currents, deep pits, or strong currents, which can lead to drowning, injury, or electrocution.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use an electric blanket and a hot water bottle at the same time (placing the hot water bottle on the electric blanket)",
+        "risk_reason": "Can cause localized overheating",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not make sharp turns while driving on icy or snowy roads.",
+        "risk_reason": "Turning too abruptly causes the steering wheel to shift laterally, increasing the resistance on the front wheels and causing the rear of the vehicle to skid outward due to inertia.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not heat oil at high temperatures for long periods.",
+        "risk_reason": "Heating oil at high temperatures for extended periods can cause it to decompose, producing harmful free radicals and carcinogens like acrolein, which can evaporate into the air and be inhaled, posing health risks.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "In the event of a traffic accident, do not give the injured any food or drink",
+        "risk_reason": "The injured might have internal injuries, brain injuries, or need emergency surgery; consuming food/drink can cause vomiting, choking, or interfere with medical treatment",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "When cooking, do not add MSG at high temperatures",
+        "risk_reason": "Adding MSG at high temperatures can turn it into pyroglutamic acid, which produces mild toxins that are harmful to human health",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "People frequently exposed to lead should not drink milk.",
+        "risk_reason": "Lactose in milk can promote the absorption and accumulation of lead in the body, easily leading to lead poisoning.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not put regular plastic containers in the microwave for heating.",
+        "risk_reason": "Regular plastic containers can release toxic substances during microwave heating, contaminating food and posing health risks.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not use pastes and ointments during acute skin disease outbreaks",
+        "risk_reason": "Pastes and ointments can block moisture evaporation, making it harder for heat to dissipate and potentially worsening inflammation",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not squeeze the wound if stung by a wasp",
+        "risk_reason": "Squeezing the wound can cause the venom to spread, gradually entering the bloodstream and lymphatic system",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not smoke while lying in bed or on the sofa",
+        "risk_reason": "Cigarette butts can fall and ignite flammable items like sheets or sofas, leading to a fire",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Children should not eat raw ginkgo nuts",
+        "risk_reason": "Raw ginkgo nuts contain ginkgolic acid and ginkgol, which inhibit cytochrome oxidase activity, leading to cell hypoxia",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not ride a bicycle swiftly when seeking shelter from rain during a thunderstorm.",
+        "risk_reason": "The large body span increases the voltage difference, making it easier to be struck by lightning.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not park vehicles under big trees or tall buildings during a sandstorm.",
+        "risk_reason": "Glass or branches might fall, causing damage to the vehicle, or a large tree might fall and cause damage.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not eat dead eels",
+        "risk_reason": "After an eel dies, the histidine it contains can convert into toxic histamine, which can cause food poisoning when consumed.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not fill the gas tank to full capacity when driving in hot weather",
+        "risk_reason": "During driving, the vehicle constantly bounces, causing gasoline to spill from the vent, and it may ignite a fire if it encounters static electricity",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not eat raw eggs",
+        "risk_reason": "Raw eggs may contain pathogens that can cause gastroenteritis; they also contain avidin, which prevents the absorption of biotin and is harmful to the body",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Corridors should not have flammable materials stored in them.",
+        "risk_reason": "Blocks escape routes and flammable materials may ignite, exacerbating fire spread.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "The gas hose should not exceed two meters and must not be bent, stretched, twisted, or compressed.",
+        "risk_reason": "This may cause the hose to become damaged or leak, leading to fire or explosion.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not raise your hands above your head after falling into water",
+        "risk_reason": "It can cause the body to sink faster",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "After heavy or continuous rain, avoid taking shelter, resting, or traversing under concave steep slopes or areas with protruding dangerous rocks.",
+        "risk_reason": "Heavy or continuous rain can cause landslides or mudslides. Concave steep slopes can accumulate water, and dangerous rocks may suddenly collapse, leading to serious injury or even life-threatening situations.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "During thunderstorms with heavy rain and lightning, do not stay close to conductive objects like antennas, water pipes, wire fences, and metal doors and windows indoors.",
+        "risk_reason": "Lightning may induce electrical currents, leading to the risk of electric shock.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "During thunderstorms with heavy rain, do not keep metal tools like hoes and shovels nearby.",
+        "risk_reason": "Metal conducts electricity easily, which may attract lightning, leading to electric shock or lightning strike accidents.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Pregnant women should not exercise on an empty stomach",
+        "risk_reason": "May produce ketones that are harmful to the baby",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not drink large amounts of water during exercise",
+        "risk_reason": "During exercise, a large amount of blood flows into the muscles, and the blood vessels in the digestive system are in a contracted state, leading to temporarily reduced blood supply. At this time, drinking a large amount of water cannot be efficiently absorbed by the gastrointestinal tract, causing water accumulation, which increases the burden on the heart, affects stomach emptying, and may cause symptoms such as stomach traction pain.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "During thunderstorms with heavy rain, do not seek shelter under tall trees, elevated sheds, or haystacks.",
+        "risk_reason": "These locations are likely targets for lightning strikes and may collapse due to wind and rain, increasing the risk of electrocution or injury from falling debris.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Burns caused by chemical agents should not be soaked in still water",
+        "risk_reason": "To prevent the chemical from spreading and causing damage to other areas",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not approach within twenty meters of high-voltage power poles, towers, or lightning rod grounding wires during thunderstorms.",
+        "risk_reason": "During a lightning strike, the current can cause step voltage, potentially leading to electric shock.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use the elevator to escape during a fire",
+        "risk_reason": "The power supply to the elevator can be cut off at any time during a fire, or the elevator may deform due to heat, trapping people inside. Toxic smoke poses a direct threat to the lives of those trapped.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "One should not consume alcohol in cold environments",
+        "risk_reason": "Alcohol dilates blood vessels, accelerates heat loss, and actually lowers body temperature and resistance",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not rely on the stair handrail side when escaping during an earthquake.",
+        "risk_reason": "The handrail side may be damaged due to the earthquake, posing a risk of collapse or breakage, while the wall side is structurally more stable.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not enter mountain ravines during or after heavy or continuous rain if it is still raining.",
+        "risk_reason": "There is a risk of landslides or mudslides which can endanger life.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "If stung multiple times, do not rinse immediately with water",
+        "risk_reason": "Rinsing immediately with water may cause the venom to spread, worsening allergic reactions or causing systemic symptoms",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not wear leather shoes, flat shoes, or casual shoes while hiking or climbing.",
+        "risk_reason": "These types of shoes lack slip resistance, support, and waterproof features, which can easily lead to slipping, sprains, or foot injuries.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not move or irritate the wound if bitten by a spider",
+        "risk_reason": "Spider bites inject venom, and moving or irritating the wound can accelerate venom spread",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Electric heaters or incandescent bulbs should not be placed too close to flammable materials.",
+        "risk_reason": "The high temperature generated by the electric heater or incandescent bulb may ignite flammable materials, causing a fire.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use containers made of metal or with metal decorations in the microwave.",
+        "risk_reason": "Microwaves generate microwave radiation that can react with metal, potentially causing arcing, damaging the microwave, or even leading to fire or other safety hazards.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Cigarette butts should not be discarded carelessly.",
+        "risk_reason": "The cigarette butt could ignite nearby flammable materials, causing a fire.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Avoid standing near temporary construction site walls or hillside walls during heavy rain.",
+        "risk_reason": "Structures may collapse due to erosion from rainwater or unstable foundations, posing a danger.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Antibiotics cannot prevent infections",
+        "risk_reason": "Antibiotics only kill existing bacteria, and misuse can disrupt normal flora and increase resistance",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Electric blankets should not be washed by rubbing with hands",
+        "risk_reason": "Rubbing may cause the internal heating wires to break, affecting safety or functionality",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Gout patients should avoid intense exercise or prolonged physical labor",
+        "risk_reason": "Intense and prolonged exercise can increase sweating, reduce blood volume and renal blood flow, and decrease the excretion of uric acid and creatinine, leading to hyperuricemia.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not drink large amounts of water shortly after exercising",
+        "risk_reason": "A large intake of water enters the bloodstream, rapidly increasing blood flow, which can burden the heart and affect the rest and recovery of organs after exercise.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not use water or foam extinguishers to put out electrical fires if the power is not cut off",
+        "risk_reason": "Water and foam conduct electricity, which may lead to rescuers getting electrocuted",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "When installing a lampshade on an incandescent lamp, do not use a thin cloth lampshade.",
+        "risk_reason": "The surface temperature of an incandescent lamp is high and can easily ignite flammable materials.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not closely follow large trucks while driving",
+        "risk_reason": "Large trucks can block your view and may drop cargo that could hit the car behind",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not take multiple medications at the same time",
+        "risk_reason": "The chemical components in many medications can interact with each other. If taken together, different drugs may interact, leading to a loss of efficacy for some. More alarmingly, these interactions can produce toxic substances that may threaten life.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Pregnant women should avoid exercises in the supine position",
+        "risk_reason": "It may affect blood supply to the placenta",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "During an earthquake, stay away from dangerous hanging objects when outdoors.",
+        "risk_reason": "These hanging objects may collapse or fall due to shaking, causing injury or risk of electric shock.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not consume raw or undercooked cassava starch",
+        "risk_reason": "Raw or undercooked cassava starch contains a natural toxic substance called cyanogenic glycosides, which can convert into cyanide in the human body and may cause poisoning.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Patients with urinary tract infections should not use electric blankets",
+        "risk_reason": "Because bedwetting might occur, leading to electric blanket leakage",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "When a fire is caused by wires or electrical equipment, the power must be cut off first before attempting to extinguish it.",
+        "risk_reason": "May lead to electric shock",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Patients with rhinitis should avoid spicy and irritating foods.",
+        "risk_reason": "Spicy and irritating substances can stimulate the upper respiratory tract, causing inflammatory changes and worsening nasal mucosa congestion, which can also exacerbate symptoms like headache and nasal congestion.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Children under 12 years old should not sit in the front seat on the highway.",
+        "risk_reason": "Airbags may harm children, and seat belts cannot effectively secure them.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "The number of plant species grown indoors should not be too many.",
+        "risk_reason": "Plants often have their own scent, and placing too many flowers and plants in a confined indoor space can make the air feel oxygen-deficient, leading to symptoms such as chest tightness and difficulty breathing. In severe cases, it may also cause headaches, dizziness, or trigger allergies, skin redness, and itching.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not use water to cool down electrical appliances when they overheat.",
+        "risk_reason": "May cause electric shock",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "If you notice any unusual movements or severe tilting while on a boat, never stay inside the cabin.",
+        "risk_reason": "The cabin is enclosed, making it easy to become trapped, drown, or be unable to escape during a capsize.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not mix medications with alcohol",
+        "risk_reason": "Alcohol can react with the medication, affecting its efficacy and potentially producing harmful toxins that endanger health. Most medications are metabolized in the liver, and the presence of alcohol can interfere with this normal process, weakening the effects of the medication.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not stand under tall, unstable shelves or shelves with fragile items during an earthquake",
+        "risk_reason": "Shelves may collapse or fragile items may fall, causing injuries or secondary harm",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not eat fresh daylilies",
+        "risk_reason": "Fresh daylilies contain colchicine, which is absorbed through the gastrointestinal tract and converts into toxic colchicine oxide, leading to poisoning",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not consume packaged food with bloated bags",
+        "risk_reason": "Bloated bags in packaged food or bulging bottle caps in bottled products indicate possible bacterial contamination and fermentation, making them unsafe to eat",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Unplug heating appliances or turn off their power during a power outage.",
+        "risk_reason": "To prevent heating appliances from turning on when power returns while no one is nearby",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "When mountain camping, avoid setting up camp in gullies, at gully openings, on gentle gully banks, or on concave or narrow convex banks of winding gullies.",
+        "risk_reason": "These areas are prone to landslides or mudslides. The low-lying or narrow terrain can hinder escape, increasing the difficulty of avoiding danger.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not refreeze thawed frozen meat",
+        "risk_reason": "Because repeatedly thawing and freezing food can lead to bacterial growth",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not seek shelter near overhead power lines or transformers during thunderstorms.",
+        "risk_reason": "Strong winds may break overhead power lines, and lightning or heavy rain can cause exposed wires or transformers to short circuit, leading to electric shock accidents.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not place objects outside windows on windy days",
+        "risk_reason": "Strong winds can cause falling objects from height, injuring pedestrians",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not take a hot shower immediately after exercising",
+        "risk_reason": "Increases blood flow to the skin, leading to insufficient blood supply to the heart and brain, which can cause dizziness or, in severe cases, fainting or shock",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not consume pig thyroid and adrenal glands",
+        "risk_reason": "Thyroid and adrenal glands contain a large amount of hormones, which may cause hormonal imbalance in the human body, leading to poisoning or severe health issues",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Pedestrians should not linger under eaves with snow, ice, or icicles.",
+        "risk_reason": "Icicles on shaded areas melt slowly and may suddenly fall, potentially injuring pedestrians.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not place plants in the room at night",
+        "risk_reason": "Plants perform respiration at night, releasing carbon dioxide and absorbing oxygen, which can be harmful to human health if placed in the bedroom.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Children should not play with lighters, matches, candles, or other open flame items.",
+        "risk_reason": "Children lack awareness of dangers, which can lead to fires or burns.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Dishwashing liquid and disinfectants should not be mixed",
+        "risk_reason": "Mixing chlorine-based cleaners with acid-based disinfectants can produce toxic chlorine gas, which can be deadly to humans in severe cases.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "You should not take shelter from a tornado in a car.",
+        "risk_reason": "A tornado can lift cars and people in its path and increase the pressure difference inside and outside the car, causing it to explode.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Pregnant women should not use sugar-based medications",
+        "risk_reason": "For example, Daonil and Tolbutamide may cause fetal malformation or death",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not take a shower immediately after running",
+        "risk_reason": "Cold water stimulates the skin, causing blood vessels to constrict, which hinders sweat evaporation and leads to increased body temperature due to inadequate heat dissipation. It can also disrupt normal physiological regulation, resulting in imbalances that make one susceptible to colds, headaches, and other illnesses.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not swim right after eating",
+        "risk_reason": "Swimming on a full stomach can affect digestion, cause stomach cramps, and lead to vomiting and abdominal pain.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Never heat sealed containers, such as eggs or sealed cups, in a microwave",
+        "risk_reason": "Sealed containers can build up steam pressure when heated, leading to a risk of explosion",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use the same cloth in both the kitchen and the bathroom",
+        "risk_reason": "Pollutants from different areas can carry bacteria, and mixing them can lead to cross-contamination, increasing the risk of disease",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not place wires under a carpet",
+        "risk_reason": "Covering with a carpet can cause poor heat dissipation of the wires, potentially leading to insulation melting, short circuits, or even a fire due to overheating",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Avoid taking shelter next to walls during a typhoon",
+        "risk_reason": "The typhoon might blow down the wall, causing injury or death",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not run quickly or repeatedly swat when encountering wasps",
+        "risk_reason": "Running triggers the wasps\" instinct to chase, and swatting can anger the swarm, leading to more aggressive attacks",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Stay away from mountains during heavy rain",
+        "risk_reason": "Severe rain can cause geological disasters like mudslides and landslides in mountainous areas",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Non-stick pans should not be rinsed with cold water immediately after use",
+        "risk_reason": "Washing a hot pan with cold water can make it fragile and damage the surface coating.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not consume mushrooms picked in the wild",
+        "risk_reason": "Poisonous mushrooms may contain lethal toxins, and accidental consumption can lead to poisoning, organ failure, or even death",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Avoid staying near billboards, fences, temporary sheds, or dead trees on windy days.",
+        "risk_reason": "Strong winds can cause objects to collapse or fall, leading to injury.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Pedestrians should not wade through flooded roads",
+        "risk_reason": "Sloped roads can create strong water currents, which may knock pedestrians down; water can conceal displaced manhole covers, creating a falling hazard.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not place Mimosa or Tulips indoors",
+        "risk_reason": "Mimosa and Tulips contain a highly toxic alkaline component, which can cause hair loss in humans if contacted excessively",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not thaw frozen food at room temperature",
+        "risk_reason": "At room temperature, the exterior of the food remains within the temperature range suitable for bacterial growth (4°C to 60°C) for an extended period during thawing, which can lead to rapid bacterial growth and increase the risk of food poisoning.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not eat leftover food without reheating it.",
+        "risk_reason": "Leftover cooked food that is not reheated or not thoroughly reheated may contain bacteria such as Listeria or Salmonella. Eating such food without reheating can lead to food poisoning, causing stomach pain, diarrhea, or even more severe health issues.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not use your hands to pat down flames on your body",
+        "risk_reason": "Running around can increase air flow and fuel the fire, and patting may spread the flames or cause burns to the hands",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Avoid activities near the river during heavy rain in mountainous areas",
+        "risk_reason": "Potential danger of flash floods",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not randomly pull out or remove foreign objects from the eye when the eye is cut or poked by a foreign object.",
+        "risk_reason": "The foreign object might be blocking the wound, and removing it abruptly could cause bleeding, sudden changes in eye pressure, or even displacement of eye contents, leading to more severe damage.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Toilet cleaner should not come into direct contact with skin",
+        "risk_reason": "The hydrochloric acid in toilet cleaning products is highly corrosive and can damage the skin if spilled on it",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Women should avoid wearing synthetic fiber underwear",
+        "risk_reason": "Harmful substances in synthetic products, when in contact with intimate areas of the body, can cause serious harm to women, such as allergic dermatitis, cystitis, breast cancer, vulvar itching, and other gynecological diseases",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not stop abruptly after a long run",
+        "risk_reason": "Stopping suddenly after a long run can prevent venous blood in the lower limbs from returning to the heart in time, potentially causing discomfort or even shock",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not turn on the lights or use the phone to call for help during a gas leak alarm.",
+        "risk_reason": "When a gas leak occurs, the concentration of gas in the air has reached a certain level. Using a phone to call for help at this time may produce an electric spark, potentially causing an explosion.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not exercise late at night",
+        "risk_reason": "Nighttime is when you should be sleeping, and the brain, heart, lung functions, and circulatory system are not in an ideal state for exercise. Forcing them to engage in high-intensity activity could lead to problems.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Avoid intense exercise when tired or after staying up late.",
+        "risk_reason": "It may lead to sudden death.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use laundry detergent and disinfectant at the same time",
+        "risk_reason": "Using laundry detergent and disinfectant simultaneously can cause a chemical reaction that weakens their effectiveness. If chlorine-based disinfectants are mixed with acidic laundry detergents, chlorine gas may be produced, which can irritate the eyes, ears, mouth, and nose, and in severe cases, threaten heart and lung tissues, potentially even endangering life.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not purchase fish with black substances leaking from the belly.",
+        "risk_reason": "The black substances leaking from the fish belly may indicate spoilage. These substances are usually a sign of decaying fish innards and may contain harmful bacteria, which could lead to food poisoning if consumed, posing a threat to health.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not stop and rest immediately after intense exercise",
+        "risk_reason": "Stopping to rest immediately after intense exercise can cause a buildup of venous blood in the limbs, leading to insufficient blood supply to the heart, and possibly causing dizziness, nausea, vomiting, or shock due to lack of oxygen in the brain.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Household appliances should not be placed near flammable or explosive items (such as gas cylinders).",
+        "risk_reason": "Appliances may produce electrical sparks or high temperatures, igniting gas or flammable materials, leading to explosions or fires.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not sleep directly after eating",
+        "risk_reason": "Lying flat can affect the speed of gastrointestinal peristalsis, which is not conducive to the absorption and digestion of food. It also prolongs the working time of the stomach, affecting gastric motility.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not wear an N95 mask during physical education class",
+        "risk_reason": "Intense physical activity increases oxygen consumption, and wearing an N95 mask can lead to oxygen deficiency, causing drowsiness, dizziness, and chest tightness. It may also result in carbon dioxide retention acidosis, and there is a risk of suffocation and emphysema.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Avoid excessive sweating during exercise",
+        "risk_reason": "Sweating excessively in a short time can be dangerous as it leads to significant loss of water and minerals. During prolonged exercise, the body primarily loses extracellular fluid salts. Excessive loss can increase plasma osmotic pressure and affect the bodys heat dissipation process, posing serious risks.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not use toilet cleaner and 84 disinfectant together",
+        "risk_reason": "When toilet cleaner and 84 disinfectant are mixed, they produce toxic chlorine gas. In smaller, poorly ventilated toilet spaces, inhaling chlorine gas can damage respiratory mucous membranes and may lead to poisoning or even death in severe cases.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "After scalds or burns occur, do not rub, massage, or press the wound, and do not use towels or clothing to wipe it.",
+        "risk_reason": "After a scald or burn, rubbing, massaging, pressing the wound, or wiping with towels or clothing can further damage skin tissue, worsen the wound, increase the risk of infection, and even destroy the original intact blister or protective layer.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not hang chandeliers or other heavy objects directly above the bed.",
+        "risk_reason": "During an earthquake or if the hanging structure becomes loose, heavy objects may fall and injure people on the bed, posing a threat to life safety.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not eat leftover rice soaked in hot water or soup",
+        "risk_reason": "Overnight rice can easily foster bacteria like Bacillus cereus during storage. These bacteria may produce heat-resistant toxins even at high temperatures. Simply heating with hot water or soup cannot effectively kill these bacteria and toxins, potentially leading to food poisoning, with symptoms such as diarrhea and vomiting.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not wash eggs before storing them.",
+        "risk_reason": "Eggshells have a natural protective coating that prevents bacteria from entering through the pores of the shell. Washing eggs before storage can potentially remove this protective layer, making it easier for bacteria to enter and cause spoilage.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Children should not use bulb-type bathroom heaters",
+        "risk_reason": "The light from bulb-type bathroom heaters contains infrared and high-energy visible light. Infrared can damage eyes and skin. High-energy visible light can penetrate the lens and directly damage the retina. For infants and young children, their macula in the retina is not yet formed, and frequent exposure to such light sources not only affects macula formation but can ultimately lead to vision damage.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not apply heat immediately after frostbite",
+        "risk_reason": "Massaging or applying heat to frostbitten areas immediately after frostbite may worsen local swelling",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Gas hoses should not pass through walls",
+        "risk_reason": "May cause wear, compression, or aging, increasing the risk of gas leaks, leading to explosions or fires",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not look at blue light sources or welding light sources",
+        "risk_reason": "Their ultraviolet rays are very strong and may cause UV burns to the eyes",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not purchase bloated or clumpy lactic acid bacteria drinks",
+        "risk_reason": "Bloated or clumpy lactic acid bacteria drinks may indicate that the product has spoiled or become contaminated.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not place small appliances near flammable items like sofas, beds, or curtains after use.",
+        "risk_reason": "Small appliances may still be hot or accidentally start, easily igniting nearby flammable materials, leading to a fire.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not eat, drink, or twist the cap of a water bottle while driving on the highway.",
+        "risk_reason": "Distracts attention and affects driving operations.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not leave household appliances on after use",
+        "risk_reason": "Can cause overheating, short circuits, and even fires",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use multiple high-power appliances on the same power outlet simultaneously",
+        "risk_reason": "The outlet may become overloaded, leading to fire or power outage",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use unauthorized or substandard electrical appliances in the dormitory (such as electric hot plates, hair dryers, electric heaters, alcohol stoves, etc.)",
+        "risk_reason": "May cause short circuits, overload, or ignite items with open flames, leading to fire hazards",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Antibiotics should not be used for viral colds or fevers",
+        "risk_reason": "Antibiotics are ineffective against viruses, and misuse can disrupt normal flora and increase antibiotic resistance",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not eat dead soft-shelled turtles",
+        "risk_reason": "Soft-shelled turtle meat contains a lot of histidine, which decomposes into histamine after the turtle dies, leading to food poisoning if consumed",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not climb out through the safety window if trapped in an elevator",
+        "risk_reason": "Opening the exit panel triggers a safety switch that stops the elevator. If the panel is closed, the elevator may restart, causing those inside to lose balance and possibly trip over cables or slip on grease, leading to falls.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Power sources and outlets should be placed away from fire sources",
+        "risk_reason": "High temperatures can cause the insulation of wires to age and break, potentially leading to short circuits or electric leaks, increasing the risk of fire",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not swim on an empty stomach",
+        "risk_reason": "Swimming on an empty stomach can affect digestive function and appetite, potentially causing dizziness and fatigue in the pool.",
+        "severity": "info"
+    },
+    {
+        "safety_knowledge": "Do not mix use of natural gas and coal gas stoves",
+        "risk_reason": "The pressure for transmitting coal gas and natural gas is different, mixing them can lead to leakage or even explosion",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not lean over fireworks to ignite or inspect extinguished fireworks.",
+        "risk_reason": "This may cause sudden explosions or re-ignition of fireworks, leading to severe injuries to the face and eyes.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not fly kites during thunderstorms or strong winds",
+        "risk_reason": "High risk of being struck by lightning",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not set up a desert hiking camp near plants like red willow or poplar trees.",
+        "risk_reason": "Areas with plants often harbor poisonous insects, which can pose a danger.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "During thunderstorms, do not stay directly under a light indoors.",
+        "risk_reason": "Lightning may induce electrical currents, leading to the risk of electric shock.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not bend down to pick up dropped items when the crowd is very crowded or a stampede has occurred.",
+        "risk_reason": "Bending down may lead to being pushed over or trampled, causing serious injury",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not thaw frozen meat with hot water",
+        "risk_reason": "Directly using hot water to thaw causes the outer layer of the meat to warm up rapidly while the inner layer remains frozen, putting the outer layer in a temperature range conducive to bacterial growth, increasing the risk of food poisoning.",
+        "severity": "warning"
+    },
+    {
+        "safety_knowledge": "Do not arbitrarily replace fuses with larger ones or use metal wires as substitutes.",
+        "risk_reason": "Fuses are meant to blow and protect the circuit during abnormal current. Substitutes may not blow in time, leading to overheating, insulation damage, or fire.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not run uphill or downhill during a landslide.",
+        "risk_reason": "Running uphill risks being buried by the landslide, while downhill may lead to being swept away by mudflows; both directions are extremely dangerous.",
+        "severity": "critical"
+    },
+    {
+        "safety_knowledge": "Do not use the phone while driving",
+        "risk_reason": "Using the phone distracts the driver and can easily lead to danger",
+        "severity": "critical"
+    }
+]
