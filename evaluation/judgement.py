@@ -44,7 +44,7 @@ class SafetyEvaluator:
 
         key = os.getenv("EVALUATION_API_KEY")
         url = os.getenv("EVALUATION_API_URL")
-        if 'boyuerichdata' in url.lower():
+        if os.getenv("USE_API_PROXY", "0").lower() in {"1", "true", "yes", "on"}:
             proxy_on()
         else:
             proxy_off()
@@ -388,7 +388,10 @@ class SafetyEvaluator:
         Returns:
             1 if match, 0 if no match, -1 if error
         """
-        os.environ["no_proxy"] = "10.0.0.0/8,100.96.0.0/12,172.16.0.0/12,192.168.0.0/16,127.0.0.1,100.99.199.53/,localhost,.pjlab.org.cn,.h.pjlab.org.cn"
+        custom_no_proxy = os.getenv("CUSTOM_NO_PROXY")
+        if custom_no_proxy:
+            os.environ["no_proxy"] = custom_no_proxy
+            os.environ["NO_PROXY"] = custom_no_proxy
         if not pred or not gt:
             return 0
 

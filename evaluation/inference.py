@@ -103,7 +103,7 @@ class SafetyAgent:
                 print(f"Warning: adapter_path is ignored for API models")
             key = os.getenv("TARGET_API_KEY")
             url = os.getenv("TARGET_API_URL")
-            if 'boyuerichdata' in url.lower():
+            if os.getenv("USE_API_PROXY", "0").lower() in {"1", "true", "yes", "on"}:
                 proxy_on()
             else:
                 proxy_off()

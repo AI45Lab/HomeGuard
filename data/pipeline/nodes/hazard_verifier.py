@@ -93,7 +93,7 @@ class HazardVerifier:
     def __init__(self, detector_model):
         key = os.getenv("ANNOTATION_API_KEY")
         url = os.getenv("ANNOTATION_API_URL")
-        if 'boyuerichdata' in url.lower():
+        if os.getenv("USE_API_PROXY", "0").lower() in {"1", "true", "yes", "on"}:
             proxy_on()
         else:
             proxy_off()

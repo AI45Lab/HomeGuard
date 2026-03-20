@@ -22,7 +22,7 @@ Jing Shao<sup>1✉</sup>
 </h4>
 
 <div align="center">
-<a href='https://arxiv.org/pdf/2603.14367'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://github.com/AI45Lab/HomeGuard'><img src='https://img.shields.io/badge/Project-Page-green'></a> <a href='https://huggingface.co/datasets/Ursulalala/'><img src='https://img.shields.io/badge/🤗-Dataset-blue'></a>
+<a href='https://arxiv.org/pdf/2603.14367'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://github.com/AI45Lab/HomeGuard'><img src='https://img.shields.io/badge/Project-Page-green'></a> <a href='https://huggingface.co/datasets/Ursulalala/HomeSafe'><img src='https://img.shields.io/badge/🤗-Dataset-blue'></a>
 </a>
 </div>
 
@@ -49,189 +49,179 @@ Jing Shao<sup>1✉</sup>
   <em><b>Figure 2: An application case of HomeGuard facilitating safe trajectory generation. </b></em>
 </p>
 
-## 📊 Performance
+## ⚡ Quick Start
 
-- 🚀 **State-of-the-Art Risk Identification:** HomeGuard-8B achieves a **90.98% RIR** and **74.90% RMR** on HomeSafe-Bench, significantly outperforming leading open-source models (Qwen3-VL-235B) and even matching or surpassing proprietary models like Gemini-3-Pro in complex embodied scenarios.
-- 📉 **Significant Reduction in Oversafety:** By prioritizing hazard regions through active perception, HomeGuard reduces the oversafety rate by up to **19.48%**, ensuring the agent remains functional without being overly cautious or "paranoid" due to perceptual noise.
-- 🌍 **Superior Generalization:** Beyond our benchmark, HomeGuard demonstrates robust performance on four public risk identification benchmarks (EARBench, MSSBench, etc.), delivering results comparable to GPT-4o-mini and improving risk prediction accuracy by over 40% compared to base models.
-- 🛠️ **Practical Utility for Safe Planning:** Integrating HomeGuard into VLM planners yields a **16.11% improvement** on the IS-Bench safe success rate. Beyond semantic risk grounding, the generated bounding boxes serve as **actionable spatial waypoints**, enabling low-level safe trajectory generation.
-
-<p align='center'>
-<img src='./assets/experiment1.png' alt='Table 1' width='850px'>
-</p>
-
-<p align='center'>
-<img src='./assets/experiment2.png' alt='Table 2' width='850px'>
-</p>
-
-<p align='center'>
-<img src='./assets/efficiency.png' alt='Table 3' width='850px'>
-</p>
-
-## ⚙️ Installation
-
-HomeGuard depends on different upstream frameworks for different stages. We only keep HomeGuard-specific code in this repository.
-
-### 1. Clone this repository
+### 1. Install the Python environment
 
 ```bash
 git clone https://github.com/AI45Lab/HomeGuard.git
 cd HomeGuard
-```
 
-### 2. Create a base environment for evaluation and application
-
-```bash
 conda create -n homeguard python=3.11 -y
 conda activate homeguard
 pip install torch torchvision transformers peft openai pillow tqdm numpy pandas matplotlib opencv-python requests sentence-transformers scikit-learn
 ```
 
-### 3. Prepare optional third-party dependencies
+### 2. Download our released checkpoints
+
+Download the released HomeGuard checkpoints from Hugging Face and place them under `checkpoints/`.
+
+Placeholder links:
+- `https://huggingface.co/Ursulalala/HomeGuard-4B`
+- `https://huggingface.co/Ursulalala/HomeGuard-8B`
+
+Recommended layout:
+
+```text
+checkpoints/
+├── HomeGuard-4B
+└── HomeGuard-8B
+```
+
+### 3. Download the HomeSafe test set
+
+Download the HomeSafe test split from Hugging Face and place it under `data/homesafe/test`.
+
+Placeholder link:
+- `https://huggingface.co/datasets/Ursulalala/HomeSafe`
+
+Recommended layout:
+
+```bash
+mkdir -p data/homesafe/test
+# download and extract the test images into data/homesafe/test
+```
+
+## 🏗️ Data Construction
+
+### 1. Download the edit model
+
+Download `Qwen-Image-Edit-2511` and place it under `checkpoints/`.
+
+Placeholder link:
+- `https://huggingface.co/Qwen/Qwen-Image-Edit-2511`
+
+Recommended layout:
+
+```text
+checkpoints/
+└── Qwen-Image-Edit-2511
+```
+
+### 2. Configure API keys
+
+Set the API endpoints and keys used by the pipeline nodes:
+
+```bash
+export PLAN_API_KEY=your_plan_api_key
+export PLAN_API_URL=your_plan_api_url
+
+export AUG_API_KEY=your_augmentation_api_key
+export AUG_API_URL=your_augmentation_api_url
+
+export REPLACE_API_KEY=your_replace_api_key
+export REPLACE_API_URL=your_replace_api_url
+
+export EDIT_API_KEY=your_edit_api_key
+export EDIT_API_URL=your_edit_api_url
+
+export VERIFY_API_KEY=your_verify_api_key
+export VERIFY_API_URL=your_verify_api_url
+
+export ANNOTATION_API_KEY=your_annotation_api_key
+export ANNOTATION_API_URL=your_annotation_api_url
+```
+
+### 3. Prepare the HomeSafe seed data directory
+
+Put the seed images and metadata under `data/homesafe/`.
+
+Recommended layout:
+
+```text
+data/homesafe/
+├── metadata/
+├── edit_image/
+└── test/
+    ├── safe/
+    └── unsafe/
+```
+
+### 4. Run the data pipeline
+
+```bash
+cd data/pipeline/nodes
+
+python editing_planner.py   --planner_name Qwen/Qwen3-VL-235B-A22B-Thinking   --root_folder ../../homesafe   --max_workers 24
+
+python obj_augmentation.py   --mode replace   --replace_model Qwen/Qwen3-VL-235B-A22B-Thinking   --root_folder ../../homesafe   --max_workers 24
+
+python safe_scenario_generator.py   --model Qwen/Qwen3-VL-235B-A22B-Thinking   --root_folder ../../homesafe   --max-workers 24
+
+python scene_editor.py   --scenario_type unsafe   --editor_model ../../../checkpoints/Qwen-Image-Edit-2511   --root_folder ../../homesafe   --max_workers 1
+
+python fidelity_verifier.py   --scenario_type unsafe   --verifier_model Qwen/Qwen3-VL-235B-A22B-Thinking   --root_folder ../../homesafe   --max_workers 24
+
+python hazard_verifier.py   --scenario_type unsafe   --detector_name Qwen/Qwen3-VL-235B-A22B-Thinking   --root_folder ../../homesafe   --max_workers 24
+
+python object_state_annotator.py   --model Qwen/Qwen3-VL-235B-A22B-Thinking   --root_folder ../../homesafe   --max_workers 24
+
+python cot_generator.py   --model Qwen/Qwen3-VL-235B-A22B-Thinking   --max_workers 24
+```
+
+## 🎓 Training
+
+### 1. Download the training data
+
+Download the HomeSafe training set from Hugging Face and place it under `data/homesafe/`.
+
+Placeholder link:
+- `https://huggingface.co/datasets/Ursulalala/HomeSafe`
+
+### 2. Unzip the released image folders
+
+After downloading the training data, extract the released image folders so that `data/homesafe/` contains:
+
+```text
+data/homesafe/
+├── metadata/
+├── edit_image/
+│   ├── safe/
+│   └── unsafe/
+└── test/
+```
+
+### 3. Prepare third-party training frameworks
 
 ```bash
 mkdir -p third_party
 ```
 
-- For SFT, clone [LlamaFactory](https://github.com/hiyouga/LLaMA-Factory) into `third_party/LlamaFactory` or any path you prefer.
-- For GRPO, clone [Visual-RFT](https://github.com/om-ai-lab/Visual-RFT) into `third_party/Visual-RFT` or any path you prefer.
-- For trajectory generation, place RoboBrain2.5 under `third_party/Robobrain2.5` or pass `--third-party-root` explicitly.
+- Clone [LlamaFactory](https://github.com/hiyouga/LLaMA-Factory) to `third_party/LlamaFactory`
+- Clone [Visual-RFT](https://github.com/om-ai-lab/Visual-RFT) to `third_party/Visual-RFT`
 
-### 4. Prepare checkpoints
+### 4. Prepare training checkpoints
 
-Create a local checkpoint directory and download the required models before running training or the data construction pipeline.
-
-```bash
-mkdir -p checkpoints
-```
+Put the required backbone and reward checkpoints under `checkpoints/`.
 
 Recommended layout:
 
-- `checkpoints/all-MiniLM-L6-v2` for the GRPO reward model
-- `checkpoints/Qwen3-VL-4B-Thinking` for 4B SFT / GRPO training
-- `checkpoints/Qwen3-VL-8B-Thinking` for 8B SFT / GRPO training
-- `checkpoints/Qwen-Image-Edit-2511` for data construction and image editing
-
-Required checkpoints by use case:
-
-- Training: `all-MiniLM-L6-v2`, `Qwen3-VL-4B-Thinking`, `Qwen3-VL-8B-Thinking`
-- Data construction: `Qwen-Image-Edit-2511`
-
-### 5. Prepare non-redistributed assets
-
-This release does not bundle large image assets. Put them into the placeholder directories documented in [data/README.md](./data/README.md).
-
-- HomeGuard assets go under `data/homeguard/`, with images in `base_image/`, `edit_image/`, `annotate_image/`, and `test/`, and metadata in `data/homeguard/metadata/`
-- Public benchmark metadata is bundled under `data/public_benches/`, while benchmark images should be downloaded separately from Hugging Face
-- Optional local checkpoints can go under `checkpoints/`
-
-## 🗂️ Data
-
-### Download HomeSafe dataset
-homeguard/
-├── metadata/
-├── base_image/
-├── annotate_image/
-│   ├── safe/            
-│   └── unsafe/
-├── edit_image/
-│   ├── safe/            
-│   └── unsafe/
-└── test/
-
-### Data pipeline usage
-
-Run the node scripts in the following order from the repository root:
-
-```bash
-cd data/pipeline/nodes
-
-python editing_planner.py \
-  --planner_name Qwen/Qwen3-VL-235B-A22B-Thinking \
-  --root_folder ../../homeguard \
-  --max_workers 24
-
-python obj_augmentation.py \
-  --mode replace \
-  --replace_model Qwen/Qwen3-VL-235B-A22B-Thinking \
-  --root_folder ../../homeguard \
-  --max_workers 24
-
-python safe_scenario_generator.py \
-  --model Qwen/Qwen3-VL-235B-A22B-Thinking \
-  --root_folder ../../homeguard \
-  --max-workers 24
-
-python scene_editor.py \
-  --scenario_type unsafe \
-  --editor_model ../../../checkpoints/Qwen-Image-Edit-2511 \
-  --root_folder ../../homeguard \
-  --max_workers 1
-
-python fidelity_verifier.py \
-  --scenario_type unsafe \
-  --verifier_model Qwen/Qwen3-VL-235B-A22B-Thinking \
-  --root_folder ../../homeguard \
-  --max_workers 24
-
-python hazard_verifier.py \
-  --scenario_type unsafe \
-  --detector_name Qwen/Qwen3-VL-235B-A22B-Thinking \
-  --root_folder ../../homeguard \
-  --max_workers 24
-
-python object_state_annotator.py \
-  --model Qwen/Qwen3-VL-235B-A22B-Thinking \
-  --root_folder ../../homeguard \
-  --max_workers 24
-
-python cot_generator.py \
-  --model Qwen/Qwen3-VL-235B-A22B-Thinking \
-  --max_workers 24
+```text
+checkpoints/
+├── all-MiniLM-L6-v2
+├── Qwen3-VL-4B-Thinking
+└── Qwen3-VL-8B-Thinking
 ```
 
-If you also want to generate the safe counterpart branch, run:
-
-```bash
-cd data/pipeline/nodes
-
-python scene_editor.py \
-  --scenario_type safe \
-  --editor_model ../../../checkpoints/Qwen-Image-Edit-2511 \
-  --root_folder ../../homeguard \
-  --max_workers 1
-
-python fidelity_verifier.py \
-  --scenario_type safe \
-  --verifier_model Qwen/Qwen3-VL-235B-A22B-Thinking \
-  --root_folder ../../homeguard \
-  --max_workers 24
-
-python hazard_verifier.py \
-  --scenario_type safe \
-  --detector_name Qwen/Qwen3-VL-235B-A22B-Thinking \
-  --root_folder ../../homeguard \
-  --max_workers 24
-```
-
-## 🎓 Training
-
-### Stage 1: SFT with LlamaFactory
-The SFT assets live in `training/sft/`. We provide HomeGuard dataset files plus launch scripts that copy the required JSON files into your [LlamaFactory](https://github.com/hiyouga/LlamaFactory) checkout before training.
-
-Example:
+### 5. Run SFT
 
 ```bash
 export LLAMAFACTORY_ROOT=$PWD/third_party/LlamaFactory
-export MODEL_PATH=/path/to/Qwen3-VL-4B-Thinking
+export MODEL_PATH=$PWD/checkpoints/Qwen3-VL-4B-Thinking
 bash training/sft/scripts/qwen3vl_4b_thinking_lora_step_sft.sh
 ```
 
-### Stage 2: GRPO / RFT with Visual-RFT
-
-The GRPO assets live in `training/grpo/`. We keep the HomeGuard-specific reward code and training entrypoint here, while the general trainer is expected from [Visual-RFT](https://github.com/Liuziyu77/Visual-RFT).
-
-Example:
+### 6. Run GRPO / RFT
 
 ```bash
 export VISUAL_ROOT_PATH=$PWD/third_party/Visual-RFT
@@ -239,7 +229,7 @@ export CKPT_PATH=/path/to/your/step-sft-checkpoint
 bash training/grpo/scripts/train_rft_action_4b_step.sh
 ```
 
-See [training/README.md](./training/README.md) for the split between SFT and GRPO assets.
+See [training/README.md](./training/README.md) for additional training assets and scripts.
 
 ## 📏 Evaluation
 
@@ -303,8 +293,21 @@ python application/robo_traj.py \
   --plot
 ```
 
-## 📝 Notes
+## 📊 Performance
 
-- This repository reorganizes the original internal research code into four open-source-friendly modules: data, training, evaluation, and application.
-- The original source repository is left untouched; all files here were copied or adapted inside the public `HomeGuard` repo only.
-- Large image assets are intentionally omitted to keep the repository lightweight.
+- 🚀 **State-of-the-Art Risk Identification:** HomeGuard-8B achieves a **90.98% RIR** and **74.90% RMR** on HomeSafe-Bench, significantly outperforming leading open-source models (Qwen3-VL-235B) and even matching or surpassing proprietary models like Gemini-3-Pro in complex embodied scenarios.
+- 📉 **Significant Reduction in Oversafety:** By prioritizing hazard regions through active perception, HomeGuard reduces the oversafety rate by up to **19.48%**, ensuring the agent remains functional without being overly cautious or "paranoid" due to perceptual noise.
+- 🌍 **Superior Generalization:** Beyond our benchmark, HomeGuard demonstrates robust performance on four public risk identification benchmarks (EARBench, MSSBench, etc.), delivering results comparable to GPT-4o-mini and improving risk prediction accuracy by over 40% compared to base models.
+- 🛠️ **Practical Utility for Safe Planning:** Integrating HomeGuard into VLM planners yields a **16.11% improvement** on the IS-Bench safe success rate. Beyond semantic risk grounding, the generated bounding boxes serve as **actionable spatial waypoints**, enabling low-level safe trajectory generation.
+
+<p align='center'>
+<img src='./assets/experiment1.png' alt='Table 1' width='850px'>
+</p>
+
+<p align='center'>
+<img src='./assets/experiment2.png' alt='Table 2' width='850px'>
+</p>
+
+<p align='center'>
+<img src='./assets/efficiency.png' alt='Table 3' width='850px'>
+</p>

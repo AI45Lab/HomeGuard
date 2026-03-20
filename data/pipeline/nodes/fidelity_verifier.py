@@ -14,7 +14,7 @@ class FidelityVerifier:
         """
         api_key = os.environ['VERIFY_API_KEY']
         base_url = os.environ['VERIFY_API_URL']
-        if 'boyuerichdata' in base_url.lower():
+        if os.getenv("USE_API_PROXY", "0").lower() in {"1", "true", "yes", "on"}:
             proxy_on()
         else:
             proxy_off()

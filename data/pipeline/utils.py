@@ -27,11 +27,21 @@ def proxy_off():
         del os.environ['HTTPS_PROXY']
 
 def proxy_on():
-    PROXY_URL="http://luxiaoya:U8z9i4bL10OCVplAEbVDbdP8t4EYnmJNFmRNQ0AK3cZeJjOjUDwhfcHf4fFz@proxy.h.pjlab.org.cn:23128"
-    os.environ['http_proxy']=PROXY_URL
-    os.environ['https_proxy']=PROXY_URL
-    os.environ['HTTP_PROXY']=PROXY_URL
-    os.environ['HTTPS_PROXY']=PROXY_URL
+    proxy_url = (
+        os.getenv('PIPELINE_PROXY_URL')
+        or os.getenv('GLOBAL_PROXY_URL')
+        or os.getenv('HTTPS_PROXY')
+        or os.getenv('HTTP_PROXY')
+        or os.getenv('https_proxy')
+        or os.getenv('http_proxy')
+    )
+    if not proxy_url:
+        return False
+    os.environ['http_proxy'] = proxy_url
+    os.environ['https_proxy'] = proxy_url
+    os.environ['HTTP_PROXY'] = proxy_url
+    os.environ['HTTPS_PROXY'] = proxy_url
+    return True
 
 def parse_base64_image(response):
     pattern = r'base64,([a-zA-Z0-9+/=]+)'
