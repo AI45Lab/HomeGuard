@@ -21,10 +21,15 @@ Jing Shao<sup>1✉</sup>
 
 </h4>
 
-<div align="center">
-<a href='https://arxiv.org/pdf/2603.14367'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://github.com/AI45Lab/HomeGuard'><img src='https://img.shields.io/badge/Project-Page-green'></a> <a href='https://huggingface.co/datasets/Ursulalala/HomeSafe'><img src='https://img.shields.io/badge/🤗-Dataset-blue'></a>
-</a>
-</div>
+<p align="center">
+  <a href="https://arxiv.org/pdf/2603.14367"><img src="https://img.shields.io/badge/arXiv-2603.14367-b31b1b.svg?logo=arxiv" alt="arXiv"></a>
+  &nbsp;
+  <a href="https://github.com/AI45Lab/HomeGuard"><img src="https://img.shields.io/badge/%F0%9F%8F%A0%20Project-Homepage-blue" alt="Project Homepage"></a>
+  &nbsp;
+  <a href="https://huggingface.co/datasets/Ursulalala/HomeSafe"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-HomeSafe-brightgreen" alt="Dataset"></a>
+  &nbsp;
+  <a href="https://huggingface.co/Ursulalala/HomeGuard-8B"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Weights-HomeGuard-yellow" alt="Weights"></a>
+</p>
 
 
 ## 📰 News
@@ -51,7 +56,9 @@ Jing Shao<sup>1✉</sup>
 
 ## ⚡ Quick Start
 
-### 1. Install the Python environment
+### 1. Installation
+
+Clone the repository and create a base Python environment for **inference, evaluation, application demos, and data processing**:
 
 ```bash
 git clone https://github.com/AI45Lab/HomeGuard.git
@@ -59,37 +66,49 @@ cd HomeGuard
 
 conda create -n homeguard python=3.11 -y
 conda activate homeguard
-pip install torch torchvision transformers peft openai pillow tqdm numpy pandas matplotlib opencv-python requests sentence-transformers scikit-learn
+
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 ```
+
+The root `requirements.txt` covers the base HomeGuard repository dependencies only. If you plan to **train** models, you also need to install the framework-specific dependencies for **LlamaFactory** and **Visual-RFT** as described in the Training section below.
 
 ### 2. Download our released checkpoints
 
 Download the released HomeGuard checkpoints from Hugging Face and place them under `checkpoints/`.
 
-Placeholder links:
-- `https://huggingface.co/Ursulalala/HomeGuard-4B`
-- `https://huggingface.co/Ursulalala/HomeGuard-8B`
+Model links: `https://huggingface.co/Ursulalala/HomeGuard-8B`
 
 Recommended layout:
 
 ```text
 checkpoints/
-├── HomeGuard-4B
 └── HomeGuard-8B
 ```
 
-### 3. Download the HomeSafe test set
+### 3. Download the HomeSafe-Bench test set
 
-Download the HomeSafe test split from Hugging Face and place it under `data/homesafe/test`.
+Download the HomeSafe dataset assets from Hugging Face and extract the benchmark split under `data/homesafe/test`.
 
-Placeholder link:
+Dataset link:
 - `https://huggingface.co/datasets/Ursulalala/HomeSafe`
 
-Recommended layout:
+If you upload the released benchmark archive as `homesafe_bench_test.zip`, you can prepare the test images with:
 
 ```bash
-mkdir -p data/homesafe/test
-# download and extract the test images into data/homesafe/test
+mkdir -p data
+cd data
+# download homesafe_bench_test.zip from Hugging Face first
+unzip homesafe_bench_test.zip
+```
+
+Expected layout:
+
+```text
+data/homesafe/
+└── test/
+    ├── safe/
+    └── unsafe/
 ```
 
 ## 🏗️ Data Construction
@@ -98,7 +117,7 @@ mkdir -p data/homesafe/test
 
 Download `Qwen-Image-Edit-2511` and place it under `checkpoints/`.
 
-Placeholder link:
+Model link:
 - `https://huggingface.co/Qwen/Qwen-Image-Edit-2511`
 
 Recommended layout:
@@ -173,14 +192,21 @@ python cot_generator.py   --model Qwen/Qwen3-VL-235B-A22B-Thinking   --max_worke
 
 ### 1. Download the training data
 
-Download the HomeSafe training set from Hugging Face and place it under `data/homesafe/`.
-
-Placeholder link:
+Download the HomeSafe dataset assets from Hugging Face:
 - `https://huggingface.co/datasets/Ursulalala/HomeSafe`
+
+If you upload the released training archive as `homesafe_edit_image.zip`, prepare the training images with:
+
+```bash
+mkdir -p data
+cd data
+# download homesafe_edit_image.zip from Hugging Face first
+unzip homesafe_edit_image.zip
+```
 
 ### 2. Unzip the released image folders
 
-After downloading the training data, extract the released image folders so that `data/homesafe/` contains:
+After extraction, `data/homesafe/` should contain:
 
 ```text
 data/homesafe/
@@ -191,14 +217,31 @@ data/homesafe/
 └── test/
 ```
 
+The metadata files are distributed separately from the image archives.
+
 ### 3. Prepare third-party training frameworks
+
+The root `requirements.txt` is **not sufficient** for full training. HomeGuard training depends on two external frameworks:
+
+- [LlamaFactory](https://github.com/hiyouga/LLaMA-Factory) for SFT
+- [Visual-RFT](https://github.com/om-ai-lab/Visual-RFT) for GRPO / RFT
+
+Prepare them under `third_party/`:
 
 ```bash
 mkdir -p third_party
+cd third_party
+
+git clone https://github.com/hiyouga/LLaMA-Factory.git
+git clone https://github.com/om-ai-lab/Visual-RFT.git
 ```
 
-- Clone [LlamaFactory](https://github.com/hiyouga/LLaMA-Factory) to `third_party/LlamaFactory`
-- Clone [Visual-RFT](https://github.com/om-ai-lab/Visual-RFT) to `third_party/Visual-RFT`
+Then install the dependencies required by each framework by following their official instructions. In practice, this usually means activating your `homeguard` environment and additionally installing the package requirements from:
+
+- `third_party/LlamaFactory`
+- `third_party/Visual-RFT`
+
+If your training setup requires extra GPU-specific packages such as `deepspeed`, `flash-attn`, or framework-pinned `transformers` / `trl` versions, please install those according to the upstream framework documentation.
 
 ### 4. Prepare training checkpoints
 
