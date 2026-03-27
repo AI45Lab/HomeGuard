@@ -24,7 +24,7 @@ Jing Shao<sup>1✉</sup>
 <p align="center">
   <a href="https://arxiv.org/pdf/2603.14367"><img src="https://img.shields.io/badge/arXiv-2603.14367-b31b1b.svg?logo=arxiv" alt="arXiv"></a>
   &nbsp;
-  <a href="https://github.com/AI45Lab/HomeGuard"><img src="https://img.shields.io/badge/%F0%9F%8F%A0%20Project-Homepage-blue" alt="Project Homepage"></a>
+  <a href="https://ursulalujun.github.io/HomeGuard-Homepage"><img src="https://img.shields.io/badge/%F0%9F%8F%A0%20Project-Homepage-blue" alt="Project Homepage"></a>
   &nbsp;
   <a href="https://huggingface.co/datasets/Ursulalala/HomeSafe"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-HomeSafe-brightgreen" alt="Dataset"></a>
   &nbsp;
