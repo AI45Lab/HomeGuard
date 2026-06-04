@@ -233,7 +233,7 @@ mkdir -p third_party
 cd third_party
 
 git clone https://github.com/hiyouga/LLaMA-Factory.git
-git clone https://github.com/om-ai-lab/Visual-RFT.git
+git clone [https://github.com/om-ai-lab/Visual-RFT.git](https://github.com/Liuziyu77/Visual-RFT)
 ```
 
 Then install the dependencies required by each framework by following their official instructions. In practice, this usually means activating your `homeguard` environment and additionally installing the package requirements from:
