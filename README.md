@@ -33,6 +33,7 @@ Jing Shao<sup>1✉</sup>
 
 
 ## 📰 News
+* **`2026.06.20`** 🎉🎉 Our paper has been accepted to ECCV Conference. See you in Sweden~ 
 * **`2026.03.16`** 🤗🤗 We release our latest work [HomeGuard](https://arxiv.org/pdf/2603.14367), the **first specialized embodied safeguard model** for identifying contextual risk in household task.
 * 🚀 Code release in progress! We are currently organizing the repository and will open-source it soon.
 
